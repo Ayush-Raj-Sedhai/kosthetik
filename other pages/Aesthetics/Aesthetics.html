@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <title>Kosthetik</title>
+   <link rel="stylesheet" type="text/css" href="Aesthetics.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+   <header class="top">
+      <a href="#">
+         <img src="img/logo.jpg" alt="Kosthetik">
+      </a>
+
+   </header>
+   <div id="sticky_navigation">
+      <nav id="navbar">
+         <ul class="navlist">
+            <li><a href="../home page/home.html">Home</a></li>
+
+            <li><a href="#" class="active">Medical Aesthetics</a></li>
+
+            <!-- <li><a href="../Dental/Dental.html">Dental</a></li> -->
+            <li>
+               <div class="cosmetics">
+                  <button class="dropbtn">Cosmetics</button>
+                  <div class="cosmetics-content">
+                     <a href="../Color_Cosmetics/Color_Cosmetics.html">Colour cosmetics</a>
+                     <a href="../Functional_Cosmetics/Functional_Cosmetics.html">Functional cosmetics</a>
+                  </div>
+               </div>
+            </li>
+            <li><a href="../Training/Training.html">Training & Consulting</a></li>
+
+            <!-- <li><a href="#">Shipping</a></li> -->
+            <!-- <li><a href="#">FAQs</a></li> -->
+            <li><a href="#">About</a></li>
+            <li><a href="../Contact/Contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div class="icon">
+         <a href="#">
+            <i class="fab fa-facebook-f"></i>
+         </a>
+         <a href="#">
+            <i class="fab fa-instagram"></i>
+         </a>
+      </div>
+   </div>
+   <div class="slider_background">
+      <div class="slider">
+      </div>
+   </div>
+   <div class="container">
+      <div class="heading">
+         <h1 class="mt-5">MEDIACAL AESTHETICS</h1>
+         <p>Aesthetic medicine is a broad term for specialties that focus on altering cosmetic appearance through the treatment of conditions including scars, skin laxity, wrinkles, moles, liver spots, excess fat, cellulite, unwanted hair, skin discoloration and spider veins.
+         </p>
+      </div>
+      <div class="row-btn">
+         <div class="row col-md-6 mx-1 px-0">
+            <!-- <button id="restylane" class="btn btn-light">
+               <select>
+               <option>Filler</option>
+               <option>Saab</option>
+             </select>
+            </button> -->
+            <div class="dropdown">
+               <button id="restylane" class="dropbtn1">Botulex</button>
+               <div class="btn-content">
+                  <a href="#" onclick="Fil()">Botulex</a>
+                  <a href="#"onclick="hutox()" >Hutox</a>
+                  <a href="#"onclick="lipo()" >LIPO LABcs TOX5</a>
+                  <!-- <a href="#">Link2</a> -->
+               </div>
+            </div>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="Rest()">Filler</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="iskin()">ISKIN</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="multi()">Multi Master</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="">obesity</button>
+         </div>
+         <div class="row col-md-8 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="omega()">Omega Hydro Peel</button>
+         </div>
+         <div class="row col-md-6 mx-1 px-0">
+            <button id="filorga" class="btn btn-light" onclick="prp()">PRP activator</button>
+         </div>
+      </div>
+      <div id="rest">
+         <div class="row col-md-4">
+            <div class="textimgResstylane">
+               <a href="#"><img src="img/Hermosa_Hard.png" alt="Restlane-img"></a>
+               <p>This is the image of <b>Hermosa Hard</b> ipsum, dolor sit amet
+                  consectetur adipisicing elit. Reprehenderit, aspernatur!
+               </p>
+            </div>
+         </div>
+         <div class="row col-md-4">
+            <div class="textimgResstylane">
+               <a href="#"><img src="img/Hermosa_Mild.png" alt="Restlane-img"></a>
+               <p>This is the image of <b>Hermosa Mild</b> ipsum, dolor sit amet
+                  consectetur adipisicing elit. Reprehenderit, aspernatur!
+               </p>
+            </div>
+         </div>
+         <div class="row col-md-4">
+            <div class="textimgResstylane">
+               <a href="#"><img src="img/Hermosa_Soft.png" alt="Restlane-img"></a>
+               <p>This is the image of <b>Hermosa Soft</b> ipsum, dolor sit amet
+                  consectetur adipisicing elit. Reprehenderit, aspernatur!
+               </p>
+            </div>
+         </div>
+      </div>
+
+      <div id="fil">
+         <div class="row col-md-10">
+            <div class="textimgFilorga">
+               <img src="img/Botulax 1.jpg" alt="Filorga-img"height="500px" width="500px">
+               <img src="img/Botulax 2.jpg" alt="Filorga-img" height="500px" width="500px"></div>
+               <p>BOTULAX is a peripheral muscle relaxant that contains purified botulinum toxin type A (in combination with hemagglutinin) and sodium chloride (excipient). The mechanism of action of the product is based on the ability of botulinum toxin type A to block the transmission of nerve impulses. Intramuscular administration of the toxin disrupts the synthesis of acetylcholine (a neurotransmitter that provides neuromuscular conduction) and leads to temporary paralysis of facial muscles. Reduced facial expression helps to relax the face and smooth wrinkles.
+                  The advantages of Botulax are that Botulax is strictly controlled for safety and high stable potency, has a purity of 99% and safety & efficacy have been successfully proved compared with Botox. Botulax contains 100 units (U) of Clostridium botulinum toxin type A, 0.5 milligrams of albumin (human), and 0.9 milligrams of sodium chloride in a sterile, vacuum-dried from without a preservative.
+               </p>
+               <h5>ACTIVE INGREDIENT:</h5>
+               <p>Clostridium Botulinum Toxin Type A</p>
+                 <p>(Strain: Clostridium botulinum CBFC26)</p> 
+                 <p>Dose: 100Units(U) </p>
+
+               <h5>FEATURES OF BOTULAX BOTULIUM TOXIN TYPE A:</h5>
+               <ul>
+               <li>Excellent Effect – Result appeciable improvement</li>
+               <li>Simple Procedure – Just by few tiny injections</li>
+               <li>Short Treatment – 10 minutes, as short as a tea break</li>
+               <li>No Down Time – Resume normal work right away</li>
+               <li>Fast Onset- Take only 2 to 3 days to see noticeable effect</li>
+               <li>Outstanding Efficacy – Over 98% users satisfied with the Botulax® treatments</li>
+               <li>Proven efficacy & Safety – The efficacy and safety of Botulium Toxin Type A are proved and verified to be comparable to botox in clinical studies.</li>
+               <li>Global Product – Global Product, Botulium Toxin Type A has been sold in over 25 countries.</li>
+               <li>Guarateed Safety – Approved by Health Authorities with over 10 years’ clinical practices.</li>
+               </ul>
+              
+               
+               <h5>APPLICATIONS/INDICATIONS:</h5>
+               <p>Not just cosmetic Botox, Botulium Toxin Type A also has therapeutic applications, Botulium Toxin Type A is used for the treatment of benign essential blepharspasm in patients 18 years of age and above. For the treatment of equinus foot deformity due to spasticity in pediatric cerebral palsy patients 2 years of age and above. And as many know Botox, for temporary improvement of serious glabellar wrinkles ranging from moderate to severe associated with corrugators muscle and/or procerus muscle activities in adults over the age of 18 and below the age of 65. The vials are generally stored in a freezer or refrigerator and they retain a shelf life of 24 months.
+               </p>
+
+               <h5>DOSAGES:</h5>
+               <p>For blepharospasm the initial recommended dose is 1.25 – 2.5 U (0.05 mL to 0.1 mL volume at each site) injected into the medial and lateral pre-tarsal orbicularis oculi of the upper lid and into the lateral pre-tarsal orbicularis oculi of the lower lid. For pediatric cerebral palsy, a total dose of 4U/kg bodyweight is recommended for the affected gastrocnemius muscle in patients with hemiplegia. And in patients with diplegia, the recommended dose is 6U/kg bodyweight divided between both legs. The maximum dose administered must not exceed 200U/patient at a time. For Glabellar wrinkles reconstituted sterile saline. 20U is used and there are additional application instructions for best practice, actual amounts vary on the presentation of the client.
+               </p>
+               <h5>EFFECTS:</h5>
+               <p>In Blepharospasm, the effects should appear within three days and peak after three weeks. For pediatric cerebral palsy applications, the expectation is improvement within four weeks of the injection. The effects vary for glabellar wrinkles due to the usually individualized dosages.
+               </p>
+               <h5>PRECAUTIONS:</h5>
+               <p>There is the possibility of reactions at the site of an injection, and effects beyond the injection site, including but not limited to asthenia, generalized muscle weakness, diplopia, ptosis, dysphagia, dysphonia, dysarthria, urinary incontinence and breathing difficulties. Serious hypersensitivity has been reported as rare. There is a caution for people with pre-existing neuromuscular disorders, and for those with corneal exposure and ulceration in blepharospasm. Botulium Toxin Type A is not to be administered at all if a patient has a known allergy to any of the ingredients, or if the patients have neuromuscular junctional disorders or known to have adverse reactions. They should not be administered while taking muscle relaxants and some antibiotics. Further, the actual effects of prolonged use are not entirely explored. There is also additional advice for the specific therapeutic conditions mentioned, as this description is not comprehensive.</p>
+               <h5>IN THE CASE OF OVERDOSE:</h5>
+               <p>In the case of an overdose it has been advised that effects may not be immediate. It is further advised that the patient be monitored for muscle weakness and/or paralysis for a period of weeks after the occurrence. There is an anti-toxin available but the caution with the anti-toxin is that it will not reduce any already apparent effects.</p>
+               <h5>EFFECTIVENESS:</h5>
+               <ul>
+                  <li>Botulax 100 iu guarantees high patient satisfaction.</li>
+                  <li>Potency variation is strictly controlled to within 91-115 units/ vial, more stringent than the legally required range.</li>
+                  <li>Size of toxin complex is 900kDa, minimize spread of botulinum toxin outside of the injection site.</li>
+                  <li>Such large and homogeneous size of the toxin complex ensures precise and uniform effect at the time of injection, guaranteeing high patient satisfaction with Botulax 100 IU.</li>
+               </ul>
+            </div>
+      </div>
+
+      <div id="hutox">
+         <div class="row col-md-10">
+            <div class="textimgFilorga">
+               <img src="img/Hutox 1.jpg"height="350px" width="350px">
+               <img src="img/Hutox 2.png"height="350px" width="350px"></div>
+               <p>Hutox 100 manufactured by Huons Co Ltd. is quite new in the beauty industry market. It is a peripheral muscle relaxant based on Botulinum Toxin type A and is manufactured in accordance with well-known Botox technology.
+                  Hutox is a fantastic Botulinum Toxin Type A-based injectable product that is valued in the medical and the beauty fields. With its highly purified composition and one-of-a-kind formula, it is equally good at correcting signs of aging and treating a long list of clinical conditions related to muscle spasticity, for example. It has qualities similar to those of Botox and it can be injected into the patient’s face or body.
+               </p>
+               <h5>AREAS OF INJECTIONS:</h5>
+               <ul>
+                  <li>Glabellar</li>
+                  <li>Periorbital</li>
+                  <li>Perioral</li>
+                  <li>Neck</li>
+                  <li>Armpits</li>
+                  <li>Palms (hyperhidrosis)</li>
+               </ul>
+               <h5>ADVANTAGES:</h5>
+               <ul>
+                  <li>Selective corrective action that determines the preservation of the naturalness of facial expressions against the background of complete correction of facial wrinkles</li>
+                  <li>The sustained therapeutic effect, lasting over time.</li>
+               </ul>
+            </div>
+      </div>
+      <div id="lipo">
+         <div class="row col-md-10">
+            <div class="textimg">
+              
+               <p>Tox5 includes Acetyl hexapeptide which is commonly called as "Botox-like" peptides. 
+                  It is protein component of vegetable amino acid which is excellent for removing wrinkle and improve skin tightening. It helps reduce existing wrinkle and eliminate wrinkle formation environment. It is non-irritating and non-toxic in nature. TOX5 improves the moisturizing ability of the skin and strengthens the barrier of skin firmly. It is also excellent for skin regeneration.                  
+               </p>
+               <h5>BENEFITS:</h5>
+               <ul>
+                  <li>Lifting & Skin Tightening, Eliminate Wrinkles</li>
+                  <li>Contouring,</li>
+                  <li>Reducing Pores and</li>
+                  <li>Dark Circles</li>
+               </ul>
+               TOX5 can be applied on any region.
+               <img src="img/Tox5.jpg"height="350px" width="350px">
+               <h5>DIRECTION:</h5>
+               <ol>
+                  <li>Apply after cleaning the face.</li>
+                  <li>Recommended to use dropper because absorption is very fast.</li>
+                  <li>Apply a drop to the vulnerable areas (eye rim, mouth rim, forehead, nose, neck) and gently tap.
+                  </li>
+                  <li>Recommended to use 2~3 times a week.</li>
+                  <li>Always seal and store the product in fridge (1~5°C).</li>
+                  <li>Use the product within 1 month after opening.</li>
+               </ol>
+                <img src="img/Tox5 Application Area.jpg"height="450px" width="500px">
+               <h5>MAIN RAW MATERIAL</h5>
+               <ul>
+                  <li>Acetyl Hexapeptide-8: purity 99.8%</li>
+                  <li>Hyaluronic acid: purity 99.8%</li>
+                  <li>Carnosine: purity 99.8%</li>
+                  <li>Misc. peptide ingredients</li>
+               </ul>
+               Packing: 1 Kit(Box) of 5ml x 5 vial(ampoule).
+
+            </div>
+            </div>
+      </div>
+
+      <div id="iskin">
+         <div class="row col-md-4">
+            <div class="imgiskin">
+               <img src="img/ISKIN - 3.jpg">
+               <img src="img/ISKIN - 4.jpg">
+            </div>
+            <h4>Indications</h4>
+            <ul>
+               <li>Skin pigmentation disorder.</li>
+               <li>Acne & acne scar</li>
+               <li>PDT</li>
+               <li>Photo rejuvenation</li>
+               <li>Cutaneous vascular disorders</li>
+            </ul>
+         </div>
+         <h4>Features</h4>
+            <ul>
+               <li><b>PDT: </b>In PDT (photodynamic therapy) treatment for acne, IPL is used as the light source that activates the substance to help shrink sebaceous glands.</li>
+               <li><b>Advanced with 8-step Level Adjustment: </b>Levels of skin types/tone can be selected from step 1-8.</li>
+               <li><b>Shortest Charging Time: </b>Advanced charging system allows all levels from step 1 to 8 to be charged within 2.5 sec.</li>
+               <li><b>Less Noise with high Efficiency: </b>A motor with low-noise, high rotation speed, quickly cools down lamp and filter after emission of light and keep the device in optimal light-emitting condition. </li>
+               <li><b>Cartridge lifespan self-checking LED Indicator: </b>Indicating the time to replace cartridge with a mark of 90%, 100% and off on its consumption. </li>
+               <li><b>Self-Checking Function: </b>Indicating the time to replace cartridge with a mark of 90%, 100% and off on its consumption. A function to detect condition of fan-cooling lamp and cartridge.</li>
+            </ul>
+         <h4>Specs</h4>
+         <table>
+         <tr>
+            <td>Input Voltage</td>
+            <td>AC 100-230V, 60Hz</td>
+         </tr>
+         <tr>
+            <td>Light Source</td>
+            <td>Xenon Lamp</td>
+         </tr>
+         <tr>
+            <td>Level Adjustment</td>
+            <td>8 Levels</td>
+         </tr>
+         <tr>
+            <td>Irradiation Area</td>
+            <td>22mm x 31mm = 682㎟</td>
+         </tr>
+         <tr>
+            <td>Demensions(Main Body)</td>
+            <td>305mm x 182mm x 102mm</td>
+         </tr>
+         <tr>
+            <td>Weight (Main Body)</td>
+            <td>Approx 1.6kg</td>
+         </tr>
+         <tr>
+            <td>Dimensions (Probe)</td>
+            <td>132mm x 42mm x 68mm</td>
+         </tr>
+         <tr>
+            <td>Weight (Probe)</td>
+            <td>Approx 115g</td>
+         </tr>
+         <tr>
+            <td>Purpose For Use</td>
+            <td>This device is to cure skin ailment by using ray, physician's prescription and guidance are needed when using.</td>
+         </tr>
+         </table>
+         
+      </div>
+
+      <div id="multi">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/Slide1 (1).pdf" height="500px" width="500px"/>
+            </div>
+         </div>
+      </div>
+
+      <div id="omega">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/omega.pdf" height="500px" width="500px"/>
+            </div>
+         </div>
+      </div>
+
+      <div id="prp">
+         <div class="row col-md-6">
+            <div class="textimgResstylane">
+               <embed class="restpdf" src="img/prp.pdf" height="500px" width="500px"/>
+            </div>
+         </div>
+      </div>
+
+
+   </div>
+
+
+   <!-- footer mathi ko card sanga over lap vayako lay bottom -880px rakhayako xa -->
+   <!-- <footer>
+    <div class="main-content">
+      <div class="column">
+        <h4>Our Products</h4>
+        <ul>
+          <li><a href="../Aesthetics/Aesthetics.html">Medical Aesthetic</a></li>
+          <!-- <li><a href="../Dental/Dental.html">Dental</a></li> -->
+   <!-- <li><a href="../Color_Cosmetics/Color_Cosmetics.html">Color Cosmetics</a></li>
+          <li><a href="../Functional_Cosmetics/Functional_Cosmetics.html">Functional Cosmetics</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4>Our Partners</h4>
+        <ul>
+          <li><a href="">Medical Aesthetic</a></li>
+          <li><a href="">Dental</a></li>
+          <li><a href="">Color Cosmetics</a></li>
+          <li><a href="">Functional Cosmetics</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4>Address</h4>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text">Kathmandu, Nepal</span>
+          </div>
+        </div>
+        <div class="content">
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+977-9800000000</span>
+          </div>
+        </div>
+        <div class="content">
+          <div class="place">
+            <span class="fas fa-envelope"></span>
+            <span class="text">kosthetik@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      &#169; Copyright-Kosthetik-2021 all right reserved.
+    </div>
+  </footer> -->
+   <script type="text/javascript" src="script.js"></script>
+
+   <script src="https://kit.fontawesome.com/335a9ecabc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
